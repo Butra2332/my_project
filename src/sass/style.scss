@@ -1,3 +1,7 @@
+@import "library/bootstrap-reboot.min";
+@import "library/font";
+@import "animation";
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -16,3 +20,6 @@
 @import "carousel";
 @import "catalog";
 @import "review";
+@import "footer";
+@import "modal";
+@import "pageup";
