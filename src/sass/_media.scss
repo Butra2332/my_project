@@ -1,0 +1,194 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 840px;
+    }
+    .promo {
+        .promo__wrapper {
+            .promo_header {
+                font-size: 37px;
+            }
+            .promo_subheader {
+                font-size: 20PX;
+            }
+        }    
+    }
+
+    .application {
+        .application_title {
+            font-size: 26px;
+        }
+    }
+    .catalog {
+        .catalog__content {
+            justify-content: space-around;
+        }
+    }
+    .review {
+        .review__img {
+            width: 130px;
+            height: 130px;
+        }
+        .review__text {
+            font-size: 15px;
+        }
+    }
+    .footer {
+        .footer__wrapper {
+            position: absolute;
+            width: 400px;
+            height: 247px;
+            padding: 34px 68px 60px 68px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 630px;
+    }
+    .promo {
+        .header {
+            .heder__logo {
+                img {
+                    width: 170px;
+                }
+            }
+            .header__ofishial {
+                font-size: 11px;
+                span {
+                    font-size: 17px;
+                }
+            }
+            .header__contacts {
+                .header__phone {
+                    font-size: 17px;
+                }
+                button {
+                    margin-top: 2px;   
+                }
+            }         
+        }
+        .promo__wrapper {
+            .promo_header {
+                font-size: 30px;
+            }
+            .promo_subheader {
+                font-size: 16px;
+            }
+            .promo__icons {
+                width: 360px;
+                .promo__icon {
+                    font-size: 13px ;
+                }
+            }
+            .button {
+                &_main {
+                    width: 217px;
+                    font-size: 14px;
+                }
+            }
+            .promo__link {
+                font-size: 14px;
+            }
+        }     
+    }
+    .advantage {
+        h2 {
+            font-size: 23px;
+        }
+        .advantage__contents {
+            .advantage__content {
+                padding: 0 15px;
+                &:nth-child(2) {
+                    margin-top: 25px;
+                }
+                .advantage__text {
+                    margin-top: 20px;
+                    font-size: 16px;
+                }
+                .advantage__subtext {
+                    margin-top: 20px;
+                    font-size: 13px;
+                }
+            }
+        } 
+    }
+    .application {
+        .application__title {
+            font-size: 25px;
+        }
+        .application__subtitle {
+            margin-top: 60px;
+        }
+        .feed-form {
+            width: 250px;
+            input {
+                width: 250px;
+            }
+        }
+        .button {
+            &_consultation {
+                width: 250px;
+                font-size: 15px;
+            }
+        }
+    }
+    .carousel {
+        img {
+            height: 270px;
+        }
+        .prev {
+            left: 25px;
+        }
+        .next {
+            right: 25px;
+        }
+    }
+    .catalog {
+        .catalog__title {
+            font-size: 25px;
+        }
+        .catalog__tab {
+            width: 180px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 39px;
+        }
+    }
+    .review {
+        .review__title {
+            font-size: 25px;
+        }
+        .review__wrapper {
+            padding-right: 0px;
+        }
+        .review__text {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .review__item {
+            margin-top: 50px;
+        }
+    }
+    .footer {
+        .footer__wrapper {
+            position: absolute;
+            width: 368px;
+            height: 190px;
+            padding: 26px 68px 88px 68px;
+        }
+        .footer__adress {
+            font-size: 17px;
+        }
+        .footer__phone {
+            font-size: 19px;
+            margin-bottom: 18px;
+        }
+        .footer__social-item {
+            width: 45px;
+            height: 45px;
+        }
+    }
+    
+    
+
+}
