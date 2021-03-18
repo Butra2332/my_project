@@ -333,6 +333,60 @@
             }
         }
     }
-
-
+}
+@media (max-width: 575px) {
+    .pageup {
+        display: none;
+    }
+    .promo {
+        .header {
+            flex-direction:column;
+            justify-content: space-around;
+            .header__contacts {
+                .header__phone {
+                    margin-top: 16px;
+                }
+            }         
+        }
+        .promo__wrapper {
+            .promo_header {
+                font-size: 21px;
+                margin-top: 165px;
+            }
+            .promo_subheader {
+                font-size: 13px;
+                font-weight: 600;
+                margin-top: 30px;
+            }
+            .promo__icons {
+                display: none;
+            }
+            .button {
+                &_main {
+                    width: 200px;
+                    font-size: 13px;
+                }
+            }
+        }     
+    }
+    .application {
+        .application__title {
+            font-size: 17px;
+        }
+        .application__subtitle {
+            font-size: 17px;
+        }
+        .feed-form {
+            margin-left: 17%;
+            transform: rotateX(-17%);
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .catalog {
+        .catalog__title {
+            margin-top: 50px;
+        }
+    }
 }
